@@ -4,9 +4,7 @@
 
 下载地址：https://www.mongodb.com/try/download/community
 
-![image-20200807211102264](mongodb.img/image-20200807211102264.png)
-
-
+![image](https://user-images.githubusercontent.com/34055414/109529460-b9a0e080-7af0-11eb-8b21-92f84f1561b0.png)
 
 
 
@@ -14,22 +12,18 @@
 
 将解压后的文件移动到   /usr/local 文件夹下
 
-将解压文件改名为 MongoDB
-
-![image-20200807211502481](mongodb.img/image-20200807211502481.png)
-
+将解压文件改称为MongoDB
+![image](https://user-images.githubusercontent.com/34055414/109530283-7f840e80-7af1-11eb-8200-dd2ba807d16e.png)
 
 
-### 3 配置环境变量
+### 3配置环境变量
 
 ```shell
 sudo vim ~/.bash_profile
 ```
 
 加入：export PATH=${PATH}:/usr/local/MongoDB/bin
-
-![image-20200807211652052](mongodb.img/image-20200807211652052.png)
-
+![image](https://user-images.githubusercontent.com/34055414/109530350-93c80b80-7af1-11eb-81a1-49161f5bda0b.png)
 
 
 ### 4、根目录下新建 /data/db文件夹
@@ -95,8 +89,6 @@ sudo mkdir -p /data/db
 2020-08-07T21:21:19.691+0800 I  NETWORK  [listener] Listening on 127.0.0.1
 2020-08-07T21:21:19.691+0800 I  NETWORK  [listener] waiting for connections on port 27017
 2020-08-07T21:21:20.007+0800 I  SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
-
-
 ```
 
 
@@ -109,5 +101,5 @@ sudo mkdir -p /data/db
 mongo
 ```
 
-![image-20200807212230090](mongodb.img/image-20200807212230090.png)
+![image](https://user-images.githubusercontent.com/34055414/109530410-a3dfeb00-7af1-11eb-88ae-6f03670a3b65.png)
 
